@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+:root {
+  --ui-header-height: 67px;
+  --ui-bg: #fff;
+  --ui-header-position: static;
+}
 
 @theme static {
   --font-sans: 'Public Sans', sans-serif;
@@ -16,3 +23,11 @@
   --color-green-900: #0A5331;
   --color-green-950: #052E16;
 }
+
+@layer base {
+  body {
+    font-family: 'Maven Pro', 'Public Sans', sans-serif;
+  }
+}
+
+
