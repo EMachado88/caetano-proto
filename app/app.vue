@@ -28,22 +28,20 @@ useSeoMeta({
       <template #left>
         <img
           alt="COBUS"
-          src="/assets/images/logo.svg"
+          src="~/assets/images/logo.svg"
         >
         <span class="text-3xl  font-bold">Spare Parts Catalogue</span>
         <span class="text-2xl">Ecobus 3002 Chassis Gen2</span>
       </template>
     </UHeader>
 
-    <UMain>
-      <NuxtPage />
-    </UMain>
+    <NuxtPage />
   </UApp>
 </template>
 
 <style>
 .header {
-  background-color: #003764;
+  background-color: var(--color-blue);
   position: static;
 }
 </style>
