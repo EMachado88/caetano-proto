@@ -24,5 +24,15 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
+  },
+  ssr: false,
+
+  app: {
+    baseURL: '/caetano-proto/',
+    buildAssetsDir: 'assets'
+  },
+
+  nitro: {
+    preset: 'github-pages'
   }
 })
